@@ -7,21 +7,21 @@ export const Container = styled.div`
   // border: 1px solid grey;
 `;
 
-export const Title = styled.h1`
-  font-size: 32px;
-  font-weight: 900;
-  letter-spacing: 2px;
+// export const Title = styled.h1`
+//   font-size: 32px;
+//   font-weight: 900;
+//   letter-spacing: 2px;
 
-  color: var(--main-text-color);
+//   color: var(--main-text-color);
 
-  padding-top: 100px;
-  padding-bottom: 50px;
-`;
+//   padding-top: 100px;
+//   padding-bottom: 50px;
+// `;
 
-export const Subtitle = styled.h2`
-  font-size: 28px;
-  font-weight: 900;
-  letter-spacing: 2px;
-  color: var(--main-text-color);
-  margin-bottom: 30px;
-`;
+// export const Subtitle = styled.h2`
+//   font-size: 28px;
+//   font-weight: 900;
+//   letter-spacing: 2px;
+//   color: var(--main-text-color);
+//   margin-bottom: 30px;
+// `;

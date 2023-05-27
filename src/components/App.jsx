@@ -6,7 +6,7 @@ import { PrivateRoute } from './PrivateRoute';
 import { RestrictedRoute } from './RestrictedRoute';
 import { useAuth } from 'hooks/useAuth';
 import { refreshUser } from 'redux/auth/operations/operation';
-import { Container, Title, Subtitle } from './App.styled';
+import { Container } from './App.styled';
 // import { ContactForm } from './ContactForm/ContactForm';
 // import { ContactList } from './ContactList/ContactList';
 // import { Filter } from './Filter/Filter';
