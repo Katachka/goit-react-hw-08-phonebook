@@ -14,7 +14,6 @@ import {
 
 export const ContactList = () => {
   const dispatch = useDispatch();
-
   const contacts = useSelector(getFilteredContacts);
 
   return (

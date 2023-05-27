@@ -15,7 +15,7 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
 
-  height: 35px;
+  height: 40px;
   padding: 0 20px 0 20px;
 
   background-color: var(--accent-bg-color);

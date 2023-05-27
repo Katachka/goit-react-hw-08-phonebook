@@ -3,18 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const List = styled.nav`
   display: flex;
-  margin-right: 15px;
-  &:last-child {
-    margin-right: 0;
-
-`;
-
-export const Item = styled.li`
-  margin-right: 15px;
-
-  &:last-child {
-    margin-right: 0;
-  }
+  gap: 20px;
 `;
 
 export const Link = styled(NavLink)`
