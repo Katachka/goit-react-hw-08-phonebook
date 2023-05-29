@@ -16,7 +16,7 @@ const LoginForm = () => {
         password: form.elements.password.value,
       })
     );
-    form.reset();
+    // form.reset();
   };
 
   return (
@@ -24,13 +24,13 @@ const LoginForm = () => {
       <>
         <Label>
           <Span>Email</Span>
-          <Input type="email" name="email" required />
+          <Input type="email" name="email" />
         </Label>
       </>
       <>
         <Label>
           <Span>Password</Span>
-          <Input type="password" name="password" required />
+          <Input type="password" name="password" />
         </Label>
       </>
       <Button type="submit" disabled={isLoading}>

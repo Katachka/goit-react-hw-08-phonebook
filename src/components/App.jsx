@@ -60,6 +60,7 @@ export const App = () => {
                 />
               }
             />
+            <Route path="*" element={<HomePage />} />
           </Route>
         </Routes>
       </Container>
