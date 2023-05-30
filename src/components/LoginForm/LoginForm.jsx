@@ -24,13 +24,13 @@ const LoginForm = () => {
       <>
         <Label>
           <Span>Email</Span>
-          <Input type="email" name="email" />
+          <Input type="email" name="email" required/>
         </Label>
       </>
       <>
         <Label>
           <Span>Password</Span>
-          <Input type="password" name="password" />
+          <Input type="password" name="password" required/>
         </Label>
       </>
       <Button type="submit" disabled={isLoading}>
