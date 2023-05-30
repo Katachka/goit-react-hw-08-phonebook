@@ -60,7 +60,23 @@ export const App = () => {
                 />
               }
             />
-            <Route path="*" element={<HomePage />} />
+            <Route
+              path="*"
+              element={
+                <div
+                  style={{
+                    marginTop: '50px',
+                    textAlign: 'center',
+                    textDecoration: 'none',
+                    color: 'var(--accent-bg-color)',
+                    fontSize: '34px',
+                  }}
+                >
+                  Opps!!! Page not found.
+                </div>
+              }
+            ></Route>
+            {/* <Route path="*" element={<HomePage />} /> */}
           </Route>
         </Routes>
       </Container>
